@@ -1,5 +1,5 @@
 CC	= gcc
-CFLAGS	= -g -Wall -m64
+CFLAGS	+= -g -Wall -m64
 TARGETS	= foo01
 
 all: ${TARGETS}
